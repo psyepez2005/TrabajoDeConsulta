@@ -8,13 +8,12 @@ Estas se usan ejecutar ordenes y operaciones sencillas, generalmente de una sola
 
 ## Por ejemplo: 
 
-val f1 = (n: Int) => n*2
+- val f1 = (n: Int) => n*2
 
-val f2 = (n: Int) => n*n
+- val f2 = (n: Int) => n*n
 
-val f3 = (n: Int) => (1 to n).sum
+- val f3 = (n: Int) => (1 to n).sum
 
+### Caracter ( _ )
+Este caracter es utilizado en muchas funciones SIN nombre para simplificarlas, funcionando como el espacio en el que se espera un atributo
 
-val numeros = List(1, 2, 3, 4)
-val cuadrados = numeros.map(x => x * x)
-// Resultado: List(1, 4, 9, 16)
